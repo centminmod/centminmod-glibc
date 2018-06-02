@@ -1,24 +1,24 @@
-# glibc 2.2.7 custom RPM build
+# glibc 2.27 custom RPM build
 
-For CentOS 7.x 64bit based Centmin Mod LEMP stacks - build custom glibc 2.2.7 RPM which installs side by side with system default glibc 2.1.7. Custom glibc 2.2.7 RPM is saved to `/svr-setup/glibc-custom-2.2.7-1.el7.x86_64.rpm`
+For CentOS 7.x 64bit based Centmin Mod LEMP stacks - build custom glibc 2.27 RPM which installs side by side with system default glibc 2.1.7. Custom glibc 2.27 RPM is saved to `/svr-setup/glibc-custom-2.27-1.el7.x86_64.rpm`
 
 Note: these custom glibc RPMs are experimental and untested as yet. Only install on test CentOS 7 64bit systems.
 
-## custom glibc 2.2.7
+## custom glibc 2.27
 
 ```
 yum info glibc-custom -q
 Installed Packages
 Name        : glibc-custom
 Arch        : x86_64
-Version     : 2.2.7
+Version     : 2.27
 Release     : 1.el7
 Size        : 145 M
 Repo        : installed
-Summary     : glibc-custom-2.2.7 for centminmod.com LEMP stack installs
+Summary     : glibc-custom-2.27 for centminmod.com LEMP stack installs
 URL         : https://centminmod.com
 License     : unknown
-Description : glibc-custom-2.2.7 for centminmod.com LEMP stacks
+Description : glibc-custom-2.27 for centminmod.com LEMP stacks
 ```
 
 ```

@@ -1,6 +1,6 @@
 #!/bin/bash
 #########################################################
-# build glibc 2.2.7 RPM for Centmin Mod CentOS 7 systems
+# build glibc 2.27 RPM for Centmin Mod CentOS 7 systems
 # written by George Liu (eva2000) https://centminmod.com
 #########################################################
 # variables
@@ -12,7 +12,7 @@ DIR_TMP='/svr-setup'
 BUILTRPM='y'
 DISTTAG='el7'
 RPMSAVE_PATH="$DIR_TMP"
-GLIBC_VER='2.2.7'
+GLIBC_VER='2.27'
       
 DESTDIR=/opt/glibc
 HOME_GLIBC=/home/build_glibc
